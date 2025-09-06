@@ -1,0 +1,123 @@
+.contact{
+     padding: 0 120px;
+     margin-top: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.contact__form{
+  display: flex;
+  align-items: center;
+  gap: 54px;
+}
+
+.contact__left{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.contact__left h2{
+  font-size: 40px;
+  font-family: "Inter",sans-serif;
+}
+
+.form{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(4,1fr);
+  gap: 24px;
+  max-height: 330px;
+}
+
+.form__left_name{
+ grid-column: 1/2;
+ grid-row: 1/2;
+}
+
+.form__left_email{
+ grid-column: 1/2;
+ grid-row: 2/3;
+}
+
+.form__right_number{
+ grid-column: 2/3;
+ grid-row: 1/2;
+}
+
+.form__right_Budget{
+ grid-column: 2/3;
+ grid-row: 2/3;
+}
+
+.form_msg{
+  grid-column: 1/3;
+  grid-row: 3/5;
+}
+
+textarea{
+  border: 0.3px solid rgb(190, 192, 191);
+  padding: 0px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+  font-family: "Inter",sans-serif;
+}
+
+textarea{
+  padding-top: 16px;
+}
+
+
+.form button{
+  grid-column: 2/3;
+  justify-self: end;
+}
+
+.contact__desc{
+  color: #323433;
+  font-size: 16px;
+  font-family: "Inter",sans-serif;
+}
+
+.contact__form_left{
+  display: flex;
+  flex-direction: column;
+  padding-left: 120px;
+  gap: 68px;
+  margin-top: 50px;
+}
+
+.contact__form_group{
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+
+.contact__form_group img{
+  height: 56px;
+  width: 56px;
+}
+
+.contact__form_content{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form_content span{
+  color:#92929D;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+.contact__form_content p{
+  color: black;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}

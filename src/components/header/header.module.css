@@ -1,0 +1,32 @@
+.header img{
+    width: 174px;
+    height: 48px;
+}
+
+.header{
+    padding: 0 100px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav{
+    display: flex;
+    gap: 40px;
+}
+
+.header__nav a{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.header__btn{
+    width: 152px;
+    height: 56px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #0DB760;
+    font-size: 16px;
+}

@@ -1,0 +1,96 @@
+.skills{
+     padding: 0 120px;
+     margin-top: 100px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.skills__left{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.skills__left h2{
+  font-size: 40px;
+  font-family: "Inter",sans-serif;
+}
+
+.skills__desc{
+  color: #323433;
+  font-size: 16px;
+  font-family: "Inter",sans-serif;
+}
+.skills__right_img{
+  width: 28px;
+  height: 28px;
+
+}
+
+.skills__right{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.skills__plus{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills__right_img_1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills__right_img_2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills__right_1 h1,p{
+  font-family: "Inter",sans-serif;
+}
+
+.skills__right_1 h1{
+  font-size: 20px;
+  color: #000000;
+}
+
+.skills__right_1 p{
+  font-size: 14px;
+  color: #323433;
+}
+
+.skills__right_2 h1,p{
+ font-family: "Inter",sans-serif;
+}
+
+.skills__right_2 h1{
+font-size: 20px;
+ color: #000000;
+}
+
+.skills__right_2 p{
+font-size: 14px;
+color: #323433;
+}
+
+.skills__plus h1,p{
+font-family: "Inter",sans-serif;
+}
+
+.skills__plus h1{
+font-size: 20px;
+ color: #000000;
+}
+
+.skills__plus p{
+font-size: 14px;
+color: #323433;
+}

@@ -1,0 +1,44 @@
+.main{
+    margin-top: 80px;
+    /* margin-left: 120px; */
+    display: flex;
+    align-items: center;
+    padding: 0 120px;
+    justify-content: space-between;
+}
+
+.main__welcome{
+    color: #0DB760;
+    font-size: 20px;
+    font-family: "Inter",sans-serif;
+}
+
+.main h1{
+   font-family: "Inter",sans-serif;
+   font-size: 58px;   
+}
+
+.main__text{
+    font-family: "Inter",sans-serif;
+   font-size: 58px; 
+    color: #0DB760;
+}
+
+.main__desc{
+    font-size: 16px;
+    color: #323433;
+      font-family: "Inter",sans-serif;
+}
+
+.main__link{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-family: "Inter",sans-serif;
+}
+
+.main__right img{
+width: 461px;
+height: 541px;
+}
+
