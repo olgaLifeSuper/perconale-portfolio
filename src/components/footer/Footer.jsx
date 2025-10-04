@@ -16,8 +16,8 @@ const Footer=()=>{
 
                 <div className={cl.row}>
                     <ul>
-                        <li><a href="#">contact as</a></li>
-                        <li><a href="#">aur servises</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Our services</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Terms & Conditions</a></li>
                         <li><a href="#">Career</a></li>
